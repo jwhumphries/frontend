@@ -8,5 +8,12 @@
   ],
   "labels": [
     "dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/jwhumphries/tailwindcss"],
+      "automerge": true
+    }
   ]
 }
